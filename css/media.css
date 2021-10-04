@@ -1,0 +1,55 @@
+@media(max-width:1080px) {
+  .bure table tr td {
+    margin-right: 30px;
+  }
+
+  .bure__flex {
+    flex-direction: column;
+  }
+
+  .bure ul {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .bure__item-flex.margin {
+    margin-top: 30px;
+  }
+
+
+}
+
+
+@media(max-width:700px) {
+  .bure .bure__scroll-media {
+    overflow: auto;
+  }
+
+
+ .bure .bure__scroll-media table {
+   width: 670px;
+  }
+}
+
+
+@media(max-width: 480px) {
+  .bure__item-flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bure__item-flex h1 {
+    margin-bottom: 10px;
+  }
+
+  .bure table tr th input {
+    width: 183;
+  }
+
+  .bure table {
+    padding: 0px 15px;
+  }
+  .bure table tr td {
+    margin-right: 13px;
+  }
+}

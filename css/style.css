@@ -1,0 +1,286 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,600,700);
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.bure {
+  padding: 37px 0px 99px;
+  margin: 0;
+  border: none;
+  background: 0 0;
+  outline-offset: 0;
+  font-size: 14px;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.bure a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.bure ul,
+.bure li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.bure h1,
+.bure h2,
+.bure h3,
+.bure h4,
+.bure h5,
+.bure h6 {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.bure p {
+  margin: 0px;
+  color: red;
+}
+
+.bure input,
+.bure textarea,
+.bure button {
+  outline: none;
+}
+
+.bure button {
+  cursor: pointer;
+}
+
+.bure__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.bure__item {
+  width: 100%;
+}
+
+.bure__item-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.bure__item-flex.margin {
+  margin-top: 110px;
+}
+
+.bure__item-flex a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  color: #dd1417;
+  text-decoration: underline;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.bure__item-flex a:hover {
+  color: #f65e60;
+}
+
+.bure__item-flex a img {
+  margin-right: 9px;
+}
+
+.bure h1 {
+  font-weight: 400;
+  font-size: 22px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.bure ul {
+  margin-right: 30px;
+  padding: 0px 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5e5e5;
+  background-color: white;
+  width: 331px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.bure ul li {
+  font-size: 14px;
+  color: #dd1417;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bure ul li:nth-child(1) {
+  padding: 20px 0px 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.bure ul li a {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  padding: 20px 0px 20px;
+}
+
+.bure ul li:not(:last-child) a {
+  border-bottom: 1px solid #e5e5e5;
+  width: 100%;
+}
+
+.bure ul li a:hover {
+  color: #f65e60;
+}
+
+.bure ul li img,
+.bure ul li a img {
+  margin-right: 10px;
+}
+
+.bure table {
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5e5e5;
+  background-color: white;
+  padding: 0px 29px;
+  border-spacing: 0;
+}
+
+.bure table tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+}
+
+.bure table tr:not(:last-child) {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.bure table tr td {
+  font-weight: 300;
+  width: 60px;
+  margin-right: 73px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.bure table tr th input {
+  font-weight: bold;
+  border: none;
+}
+
+.bure table tr th input::-webkit-input-placeholder {
+  color: #000;
+}
+
+.bure table tr th input:-ms-input-placeholder {
+  color: #000;
+}
+
+.bure table tr th input::-ms-input-placeholder {
+  color: #000;
+}
+
+.bure table tr th input::placeholder {
+  color: #000;
+}
+
+.bure table tr td a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  color: #dd1417;
+  text-decoration: underline;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.bure table tr td a:hover {
+  color: #f65e60;
+}
+
+.bure table tr td a img {
+  margin-right: 7px;
+}
+
+.bure table tr:last-child td {
+  width: auto;
+}
+
+.bure .bure__delete {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.bure .bure__delete a {
+  font-weight: 600;
+  color: #ababab;
+  text-decoration: underline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bure .bure__delete a:not(:last-child) {
+  margin-right: 28px;
+}
+
+.bure .bure__delete a img {
+  margin-right: 10px;
+}
